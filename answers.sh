@@ -42,3 +42,39 @@ DELETE FROM students WHERE name="Layal";
 
 ### Joins
 
+SELECT companies.Date, employees.Name, employees.Company
+FROM companies
+INNER join  employees on employees.Company=companies.Name
+
+
+SELECT companies.Date, employees.Name, employees.Company
+FROM companies
+INNER join  employees on employees.Company=companies.Name
+WHERE companies.Date<2000
+
+
+SELECT companies.Date, employees.Name, employees.Company
+FROM companies
+INNER join  employees on employees.Company=companies.Name
+WHERE employees.Role="Graphic Designer"
+
+
+
+### Count & Filter
+
+select name ,max(Points)
+FROM students
+
+select avg (Points)
+FROM students
+
+SELECT count(Points)
+FROM students
+WHERE Points=500
+
+SELECT name
+FROM students
+WHERE name like "%s%"
+
+
+
