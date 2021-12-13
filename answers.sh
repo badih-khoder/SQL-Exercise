@@ -1,3 +1,4 @@
+---------------------------------------------------------------------------------
 ### Basic Queries
 
 SELECT Name FROM students ;
@@ -8,7 +9,7 @@ INSERT INTO students VALUES(7,"badih",22,"M",500);
 UPDATE students SET Points=Points+1 WHERE name="Basma" ;
 UPDATE students SET Points=Points-1 WHERE name="Alex" ;
 
-
+---------------------------------------------------------------------------------
 
 ### Creating Table
 
@@ -36,3 +37,8 @@ WHERE Name = "Layal";
 
 ###3
 DELETE FROM students WHERE name="Layal";
+
+------------------------------------------------------------------------------------
+
+### Joins
+
